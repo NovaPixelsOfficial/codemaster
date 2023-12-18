@@ -5,6 +5,8 @@
   font-size: large;
 }
 
+
+
 /*Navigation Bar*/
 header {
   background-color: #0076f5;
@@ -167,15 +169,15 @@ ul li a[href="askquestion.py"]:hover::before {
 
 
 body {
-  background-color: black;
+  background: black;
   background-position: center down;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 body {
+    background-color: black;
     font-family: 'Arial', sans-serif;
-    background-color: #f0f0f0;
     margin: 0;
     padding: 0;
     overflow: hidden;
@@ -338,3 +340,8 @@ body {
     content: ""; /* Unicode for the sparkles emoji */
     display: inline-block;
     padding-right: 5px; /* Adjust spacing between emoji and text */
+  }
+
+h1{
+  color: white;
+}
